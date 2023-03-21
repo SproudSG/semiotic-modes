@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>The Neuralyser</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+
+      body {
+        font-family: "Courier New", Courier, monospace;
+        line-height: 2em;
+		font-size: 1em;
+        padding-left: 5%;
+        padding-right: 5%;     
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+
+	  @media (max-width: 550px) {
+		body {
+   
+		font-size: 0.8em;     
+      }
+		
+
+	}
+
+    ::-webkit-scrollbar {
+    width: 20px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background-color: #decbb9;
+    border-radius: 100px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+    box-shadow: 0px 4px 8px 2px rgb(0 0 0 / 30%);
+    border-radius: 100px;
+    }
+
+
+      tab {
+        margin-left: 40px;
+      }	
+
+      .img-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .img-container img {
+        display: inline;
+        align-self: center;
+        height: 200px;
+      }
+      .img-container span {
+        text-align: center;
+      }
+
+/* 	  .analyze{
+
+		background-color: #ffcccc;
+		cursor:help;
+	  } */
+
+      .click1{
+
+        background-color: #ffc10700;
+        cursor:help;
+        background-color: #ffc10700;
+        -webkit-transition: background-color 300ms linear;
+        -ms-transition: background-color 300ms linear;
+        transition: background-color 300ms linear;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-left: -1em;
+        margin-right: -1em;
+        border-radius: 0.5em;
+       
+            
+
+      }
+
+      .hover {
+            background-color: #ffc1079e;
+            -webkit-transition: background-color 300ms linear;
+            -ms-transition: background-color 300ms linear;
+            transition: background-color 300ms linear;
+        }
+/*       .click1:not(:hover) {
+            background-color: #ffc10700;
+            -webkit-transition: background-color 300ms linear;
+            -ms-transition: background-color 300ms linear;
+            transition: background-color 300ms linear;
+        } */
+
+
+      .click2,.click3{
+
+        background-color: #ff8400a7;
+        cursor:help;
+        padding: 0.3em;
+        border-radius: 0.5em;
+        /* border: #ff3700 solid 0.15em; */
+        
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Let’s Read… “The Neuralyser” by Gerald Lim</h1>
+    <!-- face-index=0 audio face-index=1 linguis face-index=2 visual face-index=3 gestural face-index=4 spatial -->
+   <div onclick class="click1" facet-index=1 word="Organisational Structure" anno-index="0">
+        <p><tab><span>Have you ever wished that some of the incredible gadgets you have seen in movies were real? And what if they were real – would that necessarily be a good thing? Read about the neuralyser and form your own conclusion!</span></tab></p>
+        
+       <h2><span onclick class="click2" facet-index=1 word="Headings"  anno-index="0">The memory eraser</span></h2>
+        <p><tab>A neuralyser <span onclick class="click2" facet-index=1 word="Word Choice" anno-index="1">is</span> a fictional device seen in the Men in Black (MIB) movie series. It is a portable electronic gadget which can erase one’s memories in a flash.</tab></p>
+    </div>   
+    
+    <div class="img-container">
+      <img src="1.jpg"  onclick class="click3" facet-index=2 word="Image" anno-index="0" />
+      <span><small onclick class="click3" facet-index=1 word="Captions" anno-index="1" >A neuralyser</small></span>
+    </div>
+
+<div onclick class="click1" facet-index=1 word="Organisational Structure" anno-index="1">
+    <h2>Operating the neuralyser</h2>
+    <p><span>A neuralyser can erase all memories formed during a particular period of time but not a specific memory such as that of a person or an event. The user <span onclick class="click2" facet-index=1 word="Word Choice" anno-index="3">determines</span> the length of memory to be erased and sets the neuralyser accordingly before directing the unsuspecting target’s attention to the neuralyser. With the click of a button, a bright flash is produced. The target who is staring at the flash appears to be hypnotised as his memories are erased. The erased memories can either be replaced with new ones supplied by the user or simply deleted. To protect himself, the user deflects the rays of the neuralyser by donning a pair of sunglasses..</tab></p>
+
+    <div class="img-container">
+      <img src="2.jpg" alt="" srcset="" />
+      <span><small>A character in the MIB movie using the neuralyser</small></span>
+    </div>
+
+    <h2>Reversing the effects of the neuralyser</h2>
+    <p><tab>A deneuralyser is a room with a seat, a big computer and a metal head gear. It is used to recover memories erased by a neuralyser. The target sits <span onclick class="click2" facet-index=1 word="Sentence Pattern" anno-index="4">in the room</span> and puts on the head gear. Upon receiving instructions from the computer, the head gear transfers the erased memories into the target’s brain. While a person can be neuralysed within a few seconds, it takes a few minutes to be deneuralysed.</tab></p>
+
+    <h2>Uses of the neuralyser</h2>
+    <p><tab>In the MIB movies, a neuralyser is used to erase memories of agents before they leave their jobs. This is necessary <span onclick class="click2" facet-index=1 word="Word Choice" anno-index="5">since</span> the MIB agents often have access to confidential information which should not be in their possession after they stop working as agents. </tab></p>
+    <p><tab>In real life, a neuralyser <span onclick class="click2" facet-index=1 word="Word Choice" anno-index="6">could</span> come in handy at times when people want to “reset” their own or others’ memories. It would certainly be useful in undoing the effects of hurtful words uttered because of a slip of the tongue, or replacing one’s own unhappy memories with more joyful ones. Indeed, the neuralyser seems to be the perfect device to help people start afresh. </tab></p>
+
+    <h2>Real neuralysers – a boon or a bane?</h2>
+    <p><tab>Some scientists have started experimenting with mice <span onclick class="click2" facet-index=1 word="Sentence Pattern" anno-index="7">to study the possibility of controlling memories in human beings</span>. They found out that when light was beamed onto the parts of the mice’s brains which control memories, the memories could really be deleted. The challenge is finding a way to replicate that process in human beings. They have established that merely staring at a bright light does not affect the memory in any way.</tab></p>
+
+    <p><tab>As science narrows the gap between fiction and reality, we should start seriously considering the implications of having real neuralysers. While a neuralyser seems to be the perfect solution in some situations, it is can <span onclick class="click2" facet-index=1 word="Word Choice" anno-index="8">also</span> bring about unthinkable consequences. A world in which one’s memories can be easily manipulated by anyone else could be an attractive idea for some but an awfully scary one for others. </tab></p>
+ 
+</div>
+
+</body>
+  
+  <script>
+
+    let currentClick1;
+    document.querySelectorAll(".click1").forEach(function(el){
+    
+        el.addEventListener("mouseenter",(event) => {
+
+
+            let facetInd = event.target.getAttribute('facet-index');
+            let word = event.target.getAttribute('word');
+            let annoIndex = event.target.getAttribute('anno-index');
+            window.parent.animeText(facetInd,word,"#ffc107",annoIndex);
+            event.target.classList.toggle("hover");
+            currentClick1 = event.target;
+          
+            
+
+        })
+
+    })
+    document.querySelectorAll(".click2").forEach(function(el){
+    
+        el.addEventListener("mouseenter",(event) => {
+            
+                      
+            let facetInd = event.target.getAttribute('facet-index');
+            let word = event.target.getAttribute('word');
+            let annoIndex = event.target.getAttribute('anno-index');
+            window.parent.animeText(facetInd,word,"#ff8400",annoIndex,"2");
+            
+            /* clear click1 */
+            let facetIndClick1 = currentClick1.getAttribute('facet-index');
+            let wordClick1 = currentClick1.getAttribute('word');
+            window.parent.removeWords(facetIndClick1,wordClick1);
+            currentClick1.classList.toggle("hover");
+           
+            event.target.style.boxShadow = "inset 0 0 0 0.15em #ff3700";
+
+
+        })
+
+    })
+    document.querySelectorAll(".click3").forEach(function(el){
+    
+        el.addEventListener("mouseenter",(event) => {
+            
+                      
+            let facetInd = event.target.getAttribute('facet-index');
+            let word = event.target.getAttribute('word');
+            let annoIndex = event.target.getAttribute('anno-index');
+            window.parent.animeText(facetInd,word,"#ff8400",annoIndex,"3");
+            
+            /* clear click1 */
+/*             let facetIndClick1 = currentClick1.getAttribute('facet-index');
+            let wordClick1 = currentClick1.getAttribute('word');
+            window.parent.removeWords(facetIndClick1,wordClick1);
+            currentClick1.classList.toggle("hover"); */
+           
+            event.target.style.boxShadow = "inset 0 0 0 0.15em #ff3700";
+
+
+        })
+
+    })
+
+    document.querySelectorAll(".click1").forEach(function(el){
+    
+        click1MouseLeave = el.addEventListener("mouseleave",(event) => {
+
+        let facetInd = event.target.getAttribute('facet-index');
+        let word = event.target.getAttribute('word');
+        window.parent.removeWords(facetInd,word);
+        event.target.classList.toggle("hover");
+
+     
+
+        })
+
+    })
+
+    document.querySelectorAll(".click2").forEach(function(el){
+    
+        el.addEventListener("mouseleave",(event) => {
+
+            let facetInd = event.target.getAttribute('facet-index');
+            let word = event.target.getAttribute('word');
+            window.parent.removeWords(facetInd,word,2);
+
+               /* restore click1 */
+            let facetIndClick1 = currentClick1.getAttribute('facet-index');
+            let wordClick1 = currentClick1.getAttribute('word');
+            let annoIndexClick1 = currentClick1.getAttribute('anno-index');
+            window.parent.animeText(facetIndClick1,wordClick1,"#ffc107",annoIndexClick1);
+            currentClick1.classList.toggle("hover");
+            event.target.style.boxShadow = "none";
+
+        })
+    })
+    document.querySelectorAll(".click3").forEach(function(el){
+    
+        el.addEventListener("mouseleave",(event) => {
+
+            let facetInd = event.target.getAttribute('facet-index');
+            let word = event.target.getAttribute('word');
+            window.parent.removeWords(facetInd,word,3);
+            
+               /* restore click1 */
+       /*   let facetIndClick1 = currentClick1.getAttribute('facet-index');
+            let wordClick1 = currentClick1.getAttribute('word');
+            let annoIndexClick1 = currentClick1.getAttribute('anno-index');
+            window.parent.animeText(facetIndClick1,wordClick1,"#ffc107",annoIndexClick1);
+            currentClick1.classList.toggle("hover"); */
+
+            event.target.style.boxShadow = "none";
+
+        })
+    })
+
+   
+
+
+  </script>
+</html>
